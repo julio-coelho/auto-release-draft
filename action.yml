@@ -1,9 +1,16 @@
 name: 'Auto Release Draft'
 description: 'Drafts a GitHub release with the changes introduced by a newly created version tag.'
 author: 'Julio Coelho'
+inputs:
+  repo-token:
+    description: 'The GITHUB_TOKEN used to authenticate to the current repository'
+    required: true
 outputs:
   release-url:
     description: 'The URL of the GitHub release that was drafted'
 runs:
   using: 'node12'
   main: 'dist/index.js'
+branding:
+  color: green
+  icon: tag
