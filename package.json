@@ -25,13 +25,13 @@
   "author": "Julio Coelho",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.5",
+    "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.4",
     "@actions/github": "^4.0.0",
     "semver": "^7.3.2"
   },
   "devDependencies": {
-    "@types/semver": "^7.3.3",
+    "@types/semver": "^7.3.4",
     "@types/jest": "^26.0.10",
     "@types/node": "^14.6.0",
     "@typescript-eslint/parser": "^3.10.1",
